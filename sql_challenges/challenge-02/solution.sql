@@ -1,6 +1,7 @@
 -- lession 6
 SELECT Domestic_sales, International_sales, Title FROM Boxoffice JOIN Movies ON Boxoffice.Movie_id = Movies.id;
 
+
 SELECT Domestic_sales, International_sales, Title FROM Boxoffice JOIN Movies ON Movie_id = Id WHERE Domestic_sales < International_Sales;
 
 SELECT Title, Rating FROM Movies JOIN Boxoffice ON Id = Movie_id ORDER BY Rating DESC;

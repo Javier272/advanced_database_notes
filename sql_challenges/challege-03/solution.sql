@@ -1,6 +1,6 @@
 -- lession 10
 SELECT Years_employed FROM employees ORDER BY Years_employed DESC LIMIT 1;
-
+ 
 SELECT Role, AVG(Years_employed) FROM employees group by Role;
 
 SELECT Building,SUM(Years_employed) FROM employees group by Building;

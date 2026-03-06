@@ -17,7 +17,6 @@ select COUNT(DISTINCT SHAPE) AS number_of_shapes,
        STDDEV(DISTINCT WEIGHT) AS distinct_weight_stddev
 from   bricks;
 
-
 SELECT shape, SUM(weight) AS shape_weight
 FROM   bricks
 GROUP BY shape;

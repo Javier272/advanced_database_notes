@@ -6,3 +6,4 @@ From freesql.com complete the tutorial
 Aggregating Rows: Databases for Developers
 
 On the solution.sql copy the three try-it 
+

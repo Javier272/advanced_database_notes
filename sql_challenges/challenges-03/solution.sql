@@ -9,7 +9,7 @@ SELECT Building,SUM(Years_employed) FROM employees group by Building;
 SELECT COUNT(*) AS total_artists FROM employees WHERE Role = 'Artist';
 
 SELECT Role, count(*) AS number_employes FROM employees group by Role;
-
+ 
 SELECT SUM(Years_employed) FROM employees WHERE Role='Engineer';
 
 -- try-it

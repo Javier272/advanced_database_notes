@@ -43,6 +43,7 @@ BEGIN
         RAISE_APPLICATION_ERROR(-20002, 'Amount must be greater than 0');
     END IF;
 
+
     UPDATE accounts
     SET balance = balance + p_amount
     WHERE account_id = p_account_id;
